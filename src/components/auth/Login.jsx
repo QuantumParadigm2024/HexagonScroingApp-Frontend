@@ -86,8 +86,6 @@ const Login = () => {
                         Simulating Reality, Delivering Certainty
                     </Typography>
                 </Box>
-
-                {/* Right Side - Login Form */}
                 <Box sx={{
                     flex: 1,
                     padding: 4,
@@ -122,7 +120,7 @@ const Login = () => {
                         <TextField
                             required
                             fullWidth
-                            label="Email Address *"
+                            label="Email Address"
                             autoComplete="email"
                             value={credentials.email}
                             onChange={(e) => setCredentials({ ...credentials, email: e.target.value })}
